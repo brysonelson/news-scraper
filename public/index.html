@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Scraping With Mongoose</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Scrape The Medium</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">Home</a></li>
+          <li><a href="badges.html">Saved Articles</a></li>
+          <li><button class="waves-effect waves-light btn cyan darken-1 scrape-new">Scrape New Articles</button></li>
+          <li><button class="waves-effect waves-light btn orange darken-2 clear-all">Clear Articles</button></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container" id="wrapper">
+    <h1>Article Scraper</h1>
+    <div id="articles"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
